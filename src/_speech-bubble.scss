@@ -1,0 +1,29 @@
+// Speech bubble mixin
+@mixin speechBubble($width: 30px, $color: #fff, $background: #000) {
+  @if $width and $color and $background {
+    font-weight: bold;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: #{$width / 5};
+    margin-bottom: #{$width / 5};
+    min-height: #{$width / 1.5};
+    min-width: $width;
+    font-size: #{$width / 2.5};
+
+    background: $background;
+    color: $color;
+
+    &:after {
+      content: "";
+      position: absolute;
+      border-left: #{$width / 3} solid transparent;
+      border-top: #{$width / 5} solid $background;
+      bottom: -#{($width / 5) - 1};
+      right: #{$width / 5};
+    }
+  }
+}

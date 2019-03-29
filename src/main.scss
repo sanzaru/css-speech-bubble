@@ -1,0 +1,5 @@
+@import "_speech-bubble";
+
+.css-speech-bubble {
+  @include speechBubble();
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@sanzaru/css-speech-bubble",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --output-style=\"compressed\" src/main.scss dist/css-speech-bubbles.css"
+  },
+  "keywords": [],
+  "author": "Martin Albrecht <martin.albrecht@javacoffee.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

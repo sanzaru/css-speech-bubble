@@ -1,0 +1,26 @@
+.css-speech-bubble.blue {
+  background: darkblue;
+}
+.css-speech-bubble.blue:after {
+  border-top-color: darkblue;
+}
+.css-speech-bubble.green {
+  background: darkgreen;
+}
+.css-speech-bubble.green:after {
+  border-top-color: darkgreen;
+}
+.css-speech-bubble.purple {
+  background: purple;
+}
+.css-speech-bubble.purple:after {
+  border-top-color: purple;
+}
+
+.css-speech-bubble-wrapper {
+  display: flex;
+  align-items: center;
+}
+.css-speech-bubble-wrapper .css-speech-bubble {
+  margin-left: 10px;
+}
