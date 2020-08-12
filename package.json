@@ -10,6 +10,6 @@
   "author": "Martin Albrecht <martin.albrecht@javacoffee.de>",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.14.1"
   }
 }
